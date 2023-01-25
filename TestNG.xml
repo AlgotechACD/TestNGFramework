@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Framework2023">
+<listeners>
+<listener class-name="com.bank.Utilities.Reporting"/>
+</listeners>
+<test name="Bank test">
+<parameter name="browser" value="chrome"/>
+ <classes>
+ <!--  class name="com.bank.testCases.TC_LoginTest_001"/>-->
+ <class name = "com.bank.testCases.TC_AddCustomerTest_002"/>
+ <methods>
+       <!--   <exclude name="loginDDT" />-->
+       <!--  exclude name="addEmployeeTestCase" /> -->
+      </methods>
+ </classes>
+
+
+</test>
+</suite>
